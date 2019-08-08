@@ -13,7 +13,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails'
-gem 'business_time', '~> 0.9.3'
+# gem 'business_time', '~> 0.9.3'
+# gem 'holiday_jp'
+gem 'holiday_japan'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

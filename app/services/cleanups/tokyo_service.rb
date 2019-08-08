@@ -6,7 +6,7 @@ module Cleanups
 
     def initialize
 
-      unless Date.today.weekday? 
+      if HolidayJapan.check(Date.today) || Time.zone.today.strftime("%a") == "Wed"
         exit
       end
 
