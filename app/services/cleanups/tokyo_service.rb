@@ -6,7 +6,7 @@ module Cleanups
 
     def initialize
 
-      unless Date.today.workday? 
+      unless Date.today.weekday? 
         exit
       end
 
